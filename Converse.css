@@ -1,0 +1,97 @@
+/* Global declaration */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    border: 7px solid black;
+    width: 800px;
+    margin: 50px auto;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: normal;
+    background-color: rgb(232, 239, 198);
+  }
+
+
+body {
+    background-color:white;
+  }
+  
+/* Product description */
+h2 {
+   text-align: center;
+   padding: 20px;
+}
+
+h1,h3 {
+    color: navy;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 22px;
+    padding: 10px 0;
+  }
+
+  p{
+    font-size: 5;
+    text-align: center;
+  }
+
+  ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10;
+    align-content: center;
+  }
+
+ .product-price {
+    font-size: 22px;
+ }
+
+ .free-shipping {
+    color: #8b8888;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 20px;
+ }
+
+ .product-desc {
+
+    margin-bottom: 5px;
+
+ }
+
+ .details {
+    align-content: center;
+ }
+
+ li {
+    list-style: square;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+  
+  /* Button transformation */
+
+  button {
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    padding: 30px;
+  }
+  
+  button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border-top: 4px solid black;
+  }
+  
